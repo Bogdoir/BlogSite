@@ -1,2 +1,0 @@
-# BlogSite
-First Test Run :)
