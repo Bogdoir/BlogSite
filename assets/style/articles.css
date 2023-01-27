@@ -1,0 +1,30 @@
+/* CSS for Article pages */
+#ArticlePage{display: grid; grid-template-columns: 1fr 71%; gap: 10px;}
+#ArticlePage section{height: fit-content; display: grid; gap: 10px;}
+
+/* Description Table */
+#ArticlePage table{width: 100%;}
+#ArticlePage table td{background-color: lightgray; padding: 3px;}
+#ArticlePage table td:first-child{font-weight: bold;}
+
+/* Article */
+#ArticlePage article{padding: 20px; overflow: hidden;}
+#ArticlePage article h1{font-size: 2em;}
+#ArticlePage article .Chapter{padding: 7px; border-radius: 10px; transition: background-color 0.5s;}
+#ArticlePage article .Chapter:hover{background-color: rgb(245,245,245);}
+#ArticlePage article p{padding: 7px; border-radius: inherit; transition: background-color 0.5s;}
+#ArticlePage article p:hover{background-color: rgb(230,230,230);}
+
+#ArticlePage article .Content{background-color: rgb(245,245,245); margin: 5px 0px; padding: 10px; border-radius: 5px;}
+#ArticlePage article .ImgCol{display: grid; grid-template-columns: 50% 50%; place-items: center;}
+#ArticlePage article img{width: 100%; outline: 1px solid dimgray;}
+
+
+/* Description */
+#ArticlePage #Description a:hover{background-color: darkgray;}
+
+/* Index */
+#ArticlePage #Index li{padding: 3px 0px;}
+#ArticlePage #Index a{background-color: lightgray; padding: 3px; border-radius: 3px;}
+#ArticlePage #Index a:visited{background-color: darkgray;}
+#ArticlePage #Index a:hover{background-color: gray;}

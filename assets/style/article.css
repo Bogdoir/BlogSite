@@ -1,0 +1,16 @@
+#Article{display: grid; grid-template-columns: 1fr 75%; gap: 10px;}
+#Article table{width: 100%;}
+#Article table tr{background-color: lightgray;}
+
+/* Article */
+#Article .DuelHeading{height: 40px; display: grid; grid-template-columns: auto auto; justify-content: space-between; align-items: center;}
+#Article .DuelHeading img{object-fit: scale-down; height: inherit;}
+#Article p{margin-bottom: 10px;}
+#Article .Center{display: grid; place-items: center;}
+#Article .Center img{max-width: 50%;}
+
+/* Image Box */
+#Article .ImgBox{background-color: rgba(0,0,0,80%); border-radius: 10px; height: 200px; margin: 10px 0px; padding: 10px; display: flex; gap: 5px; justify-content: space-between; overflow: auto;}
+#Article .ImgBox img{max-width: 100%; transition: scale 0.5s;}
+#Article .ImgBox img:hover{cursor: pointer; scale: 0.98;}
+#Article .ImgBox img:active{cursor: none; position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%); max-width: 50vw; outline: solid 50px rgba(0,0,0,80%); border-radius: 0.1px;}
