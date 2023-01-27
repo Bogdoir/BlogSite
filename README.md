@@ -1,0 +1,2 @@
+# Welcome to my website!
+This is my first public version of Clarity. If you happen to come across this, let me know what you think to it; it's concept, design, code and anything else you may find of interest.
